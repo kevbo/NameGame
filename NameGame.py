@@ -1,10 +1,13 @@
-name = "Matt"
+name = "chuck"
 
 length = len(name)
 
+print "Name Variable = " + name
+print "Length variable (length of name variable) = " + str(length)
+
 import subprocess
 
-if name == "Chuck":
+if name == "Chuck" or "chuck" or "CHUCK":
     subprocess.call(['say', "You are naughty! I am not doing that one!"])
 else:
     subprocess.call(['say', name + "," + name + "," + "Bo " + "B" + name[1:length] + "."]) 
